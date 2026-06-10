@@ -1,0 +1,149 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good evening",
+        "good afternoon",
+        "yo",
+        "what's up",
+        "hii there"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there 👋",
+        "Hey! What can I do for you?",
+        "Hello! Ask me anything."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "exit",
+        "quit",
+        "talk later",
+        "see you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later 👋",
+        "Bye! Take care!",
+        "Talk to you soon!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "thank you so much",
+        "appreciate it",
+        "cool thanks"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem 😊",
+        "Happy to help!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "bot_identity",
+      "patterns": [
+        "what is your name",
+        "who are you",
+        "what are you",
+        "tell me about yourself",
+        "what do you do"
+      ],
+      "responses": [
+        "I am an AI chatbot built using machine learning.",
+        "I'm your assistant bot 🤖",
+        "I am a trained NLP chatbot that understands text."
+      ]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": [
+        "what can you do",
+        "your features",
+        "help me",
+        "how can you help",
+        "what are your abilities"
+      ],
+      "responses": [
+        "I can answer questions, chat with you, and respond to basic queries.",
+        "I can assist you with general information and conversation.",
+        "I'm here to help you with basic chatbot tasks."
+      ]
+    },
+    {
+      "tag": "python_help",
+      "patterns": [
+        "what is python",
+        "python explain",
+        "tell me about python",
+        "python programming",
+        "why python is used"
+      ],
+      "responses": [
+        "Python is a programming language used for AI, web development, and automation.",
+        "Python is simple and powerful programming language.",
+        "It is widely used in AI, machine learning and data science."
+      ]
+    },
+    {
+      "tag": "ai_definition",
+      "patterns": [
+        "what is ai",
+        "define artificial intelligence",
+        "explain ai",
+        "ai meaning"
+      ],
+      "responses": [
+        "AI means Artificial Intelligence where machines simulate human thinking.",
+        "AI is the ability of machines to learn and make decisions."
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "what time is it",
+        "current time",
+        "tell me time"
+      ],
+      "responses": [
+        "I cannot access real-time clock yet, but you can use your device clock."
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "tell me a joke",
+        "make me laugh",
+        "joke",
+        "say something funny"
+      ],
+      "responses": [
+        "Why did the computer get cold? Because it forgot to close Windows 😄",
+        "I told my computer I needed a break... it said 'No problem, I'll go to sleep' 😆"
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": [
+        "I'm not sure I understand that. Can you rephrase?",
+        "Sorry, I didn't get that. Try again.",
+        "I don't know that yet, but I'm learning!"
+      ]
+    }
+  ]
+}
